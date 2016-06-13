@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7E86B621D0E840400D9A9DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E86B611D0E840400D9A9DB /* main.m */; };
+		D7E86B651D0E840400D9A9DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E86B641D0E840400D9A9DB /* AppDelegate.m */; };
+		D7E86B681D0E840400D9A9DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E86B671D0E840400D9A9DB /* ViewController.m */; };
+		D7E86B6B1D0E840400D9A9DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E86B691D0E840400D9A9DB /* Main.storyboard */; };
+		D7E86B6D1D0E840400D9A9DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E86B6C1D0E840400D9A9DB /* Assets.xcassets */; };
+		D7E86B701D0E840400D9A9DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E86B6E1D0E840400D9A9DB /* LaunchScreen.storyboard */; };
+		D7E86B7B1D0E840400D9A9DB /* TwoTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E86B7A1D0E840400D9A9DB /* TwoTableViewTests.m */; };
+		D7E86B861D0E840400D9A9DB /* TwoTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E86B851D0E840400D9A9DB /* TwoTableViewUITests.m */; };
+		D7E86B9B1D0E89F800D9A9DB /* DLCategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E86B9A1D0E89F800D9A9DB /* DLCategoryController.m */; };
+		D7E86B9E1D0E8A1800D9A9DB /* DLProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E86B9D1D0E8A1800D9A9DB /* DLProductController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7E86B771D0E840400D9A9DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7E86B551D0E840300D9A9DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7E86B5C1D0E840400D9A9DB;
+			remoteInfo = TwoTableView;
+		};
+		D7E86B821D0E840400D9A9DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7E86B551D0E840300D9A9DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7E86B5C1D0E840400D9A9DB;
+			remoteInfo = TwoTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7E86B5D1D0E840400D9A9DB /* TwoTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E86B611D0E840400D9A9DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7E86B631D0E840400D9A9DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7E86B641D0E840400D9A9DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7E86B661D0E840400D9A9DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D7E86B671D0E840400D9A9DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7E86B6A1D0E840400D9A9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7E86B6C1D0E840400D9A9DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7E86B6F1D0E840400D9A9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7E86B711D0E840400D9A9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E86B761D0E840400D9A9DB /* TwoTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E86B7A1D0E840400D9A9DB /* TwoTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoTableViewTests.m; sourceTree = "<group>"; };
+		D7E86B7C1D0E840400D9A9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E86B811D0E840400D9A9DB /* TwoTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E86B851D0E840400D9A9DB /* TwoTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoTableViewUITests.m; sourceTree = "<group>"; };
+		D7E86B871D0E840400D9A9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E86B991D0E89F800D9A9DB /* DLCategoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCategoryController.h; sourceTree = "<group>"; };
+		D7E86B9A1D0E89F800D9A9DB /* DLCategoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCategoryController.m; sourceTree = "<group>"; };
+		D7E86B9C1D0E8A1800D9A9DB /* DLProductController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLProductController.h; sourceTree = "<group>"; };
+		D7E86B9D1D0E8A1800D9A9DB /* DLProductController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLProductController.m; sourceTree = "<group>"; };
+		D7E86B9F1D0E8B2300D9A9DB /* TwoTableView.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoTableView.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7E86B5A1D0E840400D9A9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E86B731D0E840400D9A9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E86B7E1D0E840400D9A9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7E86B541D0E840300D9A9DB = {
+			isa = PBXGroup;
+			children = (
+				D7E86B5F1D0E840400D9A9DB /* TwoTableView */,
+				D7E86B791D0E840400D9A9DB /* TwoTableViewTests */,
+				D7E86B841D0E840400D9A9DB /* TwoTableViewUITests */,
+				D7E86B5E1D0E840400D9A9DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7E86B5E1D0E840400D9A9DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7E86B5D1D0E840400D9A9DB /* TwoTableView.app */,
+				D7E86B761D0E840400D9A9DB /* TwoTableViewTests.xctest */,
+				D7E86B811D0E840400D9A9DB /* TwoTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7E86B5F1D0E840400D9A9DB /* TwoTableView */ = {
+			isa = PBXGroup;
+			children = (
+				D7E86B631D0E840400D9A9DB /* AppDelegate.h */,
+				D7E86B641D0E840400D9A9DB /* AppDelegate.m */,
+				D7E86B661D0E840400D9A9DB /* ViewController.h */,
+				D7E86B671D0E840400D9A9DB /* ViewController.m */,
+				D7E86B9C1D0E8A1800D9A9DB /* DLProductController.h */,
+				D7E86B9D1D0E8A1800D9A9DB /* DLProductController.m */,
+				D7E86B991D0E89F800D9A9DB /* DLCategoryController.h */,
+				D7E86B9A1D0E89F800D9A9DB /* DLCategoryController.m */,
+				D7E86B9F1D0E8B2300D9A9DB /* TwoTableView.pch */,
+				D7E86B691D0E840400D9A9DB /* Main.storyboard */,
+				D7E86B6C1D0E840400D9A9DB /* Assets.xcassets */,
+				D7E86B6E1D0E840400D9A9DB /* LaunchScreen.storyboard */,
+				D7E86B711D0E840400D9A9DB /* Info.plist */,
+				D7E86B601D0E840400D9A9DB /* Supporting Files */,
+			);
+			path = TwoTableView;
+			sourceTree = "<group>";
+		};
+		D7E86B601D0E840400D9A9DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7E86B611D0E840400D9A9DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7E86B791D0E840400D9A9DB /* TwoTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7E86B7A1D0E840400D9A9DB /* TwoTableViewTests.m */,
+				D7E86B7C1D0E840400D9A9DB /* Info.plist */,
+			);
+			path = TwoTableViewTests;
+			sourceTree = "<group>";
+		};
+		D7E86B841D0E840400D9A9DB /* TwoTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7E86B851D0E840400D9A9DB /* TwoTableViewUITests.m */,
+				D7E86B871D0E840400D9A9DB /* Info.plist */,
+			);
+			path = TwoTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7E86B5C1D0E840400D9A9DB /* TwoTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E86B8A1D0E840400D9A9DB /* Build configuration list for PBXNativeTarget "TwoTableView" */;
+			buildPhases = (
+				D7E86B591D0E840400D9A9DB /* Sources */,
+				D7E86B5A1D0E840400D9A9DB /* Frameworks */,
+				D7E86B5B1D0E840400D9A9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoTableView;
+			productName = TwoTableView;
+			productReference = D7E86B5D1D0E840400D9A9DB /* TwoTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7E86B751D0E840400D9A9DB /* TwoTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E86B8D1D0E840400D9A9DB /* Build configuration list for PBXNativeTarget "TwoTableViewTests" */;
+			buildPhases = (
+				D7E86B721D0E840400D9A9DB /* Sources */,
+				D7E86B731D0E840400D9A9DB /* Frameworks */,
+				D7E86B741D0E840400D9A9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7E86B781D0E840400D9A9DB /* PBXTargetDependency */,
+			);
+			name = TwoTableViewTests;
+			productName = TwoTableViewTests;
+			productReference = D7E86B761D0E840400D9A9DB /* TwoTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7E86B801D0E840400D9A9DB /* TwoTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E86B901D0E840400D9A9DB /* Build configuration list for PBXNativeTarget "TwoTableViewUITests" */;
+			buildPhases = (
+				D7E86B7D1D0E840400D9A9DB /* Sources */,
+				D7E86B7E1D0E840400D9A9DB /* Frameworks */,
+				D7E86B7F1D0E840400D9A9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7E86B831D0E840400D9A9DB /* PBXTargetDependency */,
+			);
+			name = TwoTableViewUITests;
+			productName = TwoTableViewUITests;
+			productReference = D7E86B811D0E840400D9A9DB /* TwoTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7E86B551D0E840300D9A9DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "donglian@eastunion.net";
+				TargetAttributes = {
+					D7E86B5C1D0E840400D9A9DB = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D7E86B751D0E840400D9A9DB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D7E86B5C1D0E840400D9A9DB;
+					};
+					D7E86B801D0E840400D9A9DB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D7E86B5C1D0E840400D9A9DB;
+					};
+				};
+			};
+			buildConfigurationList = D7E86B581D0E840300D9A9DB /* Build configuration list for PBXProject "TwoTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7E86B541D0E840300D9A9DB;
+			productRefGroup = D7E86B5E1D0E840400D9A9DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7E86B5C1D0E840400D9A9DB /* TwoTableView */,
+				D7E86B751D0E840400D9A9DB /* TwoTableViewTests */,
+				D7E86B801D0E840400D9A9DB /* TwoTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7E86B5B1D0E840400D9A9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E86B701D0E840400D9A9DB /* LaunchScreen.storyboard in Resources */,
+				D7E86B6D1D0E840400D9A9DB /* Assets.xcassets in Resources */,
+				D7E86B6B1D0E840400D9A9DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E86B741D0E840400D9A9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E86B7F1D0E840400D9A9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7E86B591D0E840400D9A9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E86B681D0E840400D9A9DB /* ViewController.m in Sources */,
+				D7E86B9E1D0E8A1800D9A9DB /* DLProductController.m in Sources */,
+				D7E86B651D0E840400D9A9DB /* AppDelegate.m in Sources */,
+				D7E86B621D0E840400D9A9DB /* main.m in Sources */,
+				D7E86B9B1D0E89F800D9A9DB /* DLCategoryController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E86B721D0E840400D9A9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E86B7B1D0E840400D9A9DB /* TwoTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E86B7D1D0E840400D9A9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E86B861D0E840400D9A9DB /* TwoTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7E86B781D0E840400D9A9DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7E86B5C1D0E840400D9A9DB /* TwoTableView */;
+			targetProxy = D7E86B771D0E840400D9A9DB /* PBXContainerItemProxy */;
+		};
+		D7E86B831D0E840400D9A9DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7E86B5C1D0E840400D9A9DB /* TwoTableView */;
+			targetProxy = D7E86B821D0E840400D9A9DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7E86B691D0E840400D9A9DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7E86B6A1D0E840400D9A9DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7E86B6E1D0E840400D9A9DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7E86B6F1D0E840400D9A9DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7E86B881D0E840400D9A9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7E86B891D0E840400D9A9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7E86B8B1D0E840400D9A9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/TwoTableView.pch";
+				INFOPLIST_FILE = TwoTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.esatunion.TwoTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7E86B8C1D0E840400D9A9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/TwoTableView.pch";
+				INFOPLIST_FILE = TwoTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.esatunion.TwoTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7E86B8E1D0E840400D9A9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TwoTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.esatunion.TwoTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoTableView.app/TwoTableView";
+			};
+			name = Debug;
+		};
+		D7E86B8F1D0E840400D9A9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TwoTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.esatunion.TwoTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoTableView.app/TwoTableView";
+			};
+			name = Release;
+		};
+		D7E86B911D0E840400D9A9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TwoTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.esatunion.TwoTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TwoTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D7E86B921D0E840400D9A9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TwoTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.esatunion.TwoTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TwoTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7E86B581D0E840300D9A9DB /* Build configuration list for PBXProject "TwoTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E86B881D0E840400D9A9DB /* Debug */,
+				D7E86B891D0E840400D9A9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E86B8A1D0E840400D9A9DB /* Build configuration list for PBXNativeTarget "TwoTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E86B8B1D0E840400D9A9DB /* Debug */,
+				D7E86B8C1D0E840400D9A9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7E86B8D1D0E840400D9A9DB /* Build configuration list for PBXNativeTarget "TwoTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E86B8E1D0E840400D9A9DB /* Debug */,
+				D7E86B8F1D0E840400D9A9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7E86B901D0E840400D9A9DB /* Build configuration list for PBXNativeTarget "TwoTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E86B911D0E840400D9A9DB /* Debug */,
+				D7E86B921D0E840400D9A9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7E86B551D0E840300D9A9DB /* Project object */;
+}
